@@ -1,2 +1,4 @@
 import './css/style.css';
-import './js/app';
+import Field from './js/app';
+
+const field = new Field(document.body);

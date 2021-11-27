@@ -1,6 +1,6 @@
 import goblinImage from '../img/goblin.png';
 
-export class Field {
+export default class Field {
   constructor(element) {
     if (!element) {
       throw new Error('Элемент не существует');
@@ -41,4 +41,3 @@ export class Field {
     console.log('переместилось');
   }
 }
-export default new Field(document.body);
